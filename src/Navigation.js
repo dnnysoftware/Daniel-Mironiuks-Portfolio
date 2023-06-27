@@ -1,19 +1,18 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Image from "react-bootstrap/Image";
 
 function Navigation() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
-      <Navbar.Brand href="#home">My Website</Navbar.Brand>
+    <Navbar className="fixed-top border-bottom" bg="light" variant="light" expand="lg" >
+      <Image className='navbar-brand nav-spacing' src='./img/dm_logo.png' width="3%" height="3%"/>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#services">Services</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
+      <Navbar.Collapse className='nav-spacing' id="basic-navbar-nav">
+        <Nav className="ml-auto nav-spacing">
+          <Nav.Link href="#home">Projects</Nav.Link>
+          <Nav.Link href="#about">Expirence</Nav.Link>
+          <Nav.Link href="#services">Education</Nav.Link>
+          <Nav.Link href="#contact">About</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

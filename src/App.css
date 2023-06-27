@@ -1,3 +1,15 @@
+.ml-auto {
+  margin-left: auto !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.nav-spacing {
+  margin: 0 20px;
+}
+
+
 .app {
   position: relative;
   margin: 0;
@@ -7,24 +19,28 @@
   height: 100vh;
 }
 
+.model {
+  float: right;
+}
+
 .row {
   display: flex;
 }
 
 .title-info {
-  margin-left: 8%;
   position: relative;
 }
 
 .info-section {
-  margin: 0;
+  margin-left: 8%;
   position: absolute;
-  top: 40%;
+  top: 50%;
   transform: translateY(-50%);
 }
 
 .title {
-  font-size: 12vh;
+  width: 80vmin;
+  font-size: 10vmin;
   color: #fff;
   margin-bottom: 0;
 } 
@@ -34,10 +50,9 @@
   color: #fff;
 }
 
-.text {
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.title-text {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
-  text-align: left;
 }
 
 
@@ -47,9 +62,7 @@
   height: 100%;
 }
 
-.model{
-  float: left;
-}
+
 
 .text-box {
   position: relative;
@@ -86,13 +99,33 @@
   animation-fill-mode: backwards;
 }
 
+
+
+
+.description-section {
+  
+}
+
 .about-me {
   background-color: #fff;
   color: black;
   width: 100vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+}
+
+.text {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.description {
+  margin-top: 8%;
+}
+
+.desc-text {
+  font-size: .8vw;
+}
+
+.desc-title {
+  font-size: 2vw;
 }
 
 .portrait {
