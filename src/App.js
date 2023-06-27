@@ -90,8 +90,8 @@ function App() {
                 <p className='title'>Daniel Mironiuk's Portfolio</p>
                 <div className='text-box'>
                   <a className='btn btn-white btn-animate' href="https://github.com/dnnysoftware">Github</a>
-                  <a className='btn btn-white btn-animate' href="mailto: softwarebydanielmironiuk@gmail.com">Email</a>
                   <a className='btn btn-white btn-animate' href='https://www.linkedin.com/in/daniel-mironiuk/' rel="noreferrer" target="_blank">LinkedIn</a>
+                        <a className='btn btn-white btn-animate' href="mailto: softwarebydanielmironiuk@gmail.com">Email</a>
                 </div>
               </div>
             </Col>
