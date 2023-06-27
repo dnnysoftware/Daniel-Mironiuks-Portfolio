@@ -4,11 +4,11 @@ import { useRef } from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import { Canvas, useFrame } from '@react-three/fiber';
+import { Canvas, useFrame} from '@react-three/fiber';
 import { useGLTF, Stage } from '@react-three/drei';
 
 
-function Model(props) {
+function Model() {
     const { scene } = useGLTF('/model.glb');
     const modelRef = useRef();
   
@@ -18,7 +18,7 @@ function Model(props) {
       }
     });
   
-    return <primitive object={scene} ref={modelRef} {...props}/>;
+    return <primitive object={scene} ref={modelRef}/ >;
   }
 
 

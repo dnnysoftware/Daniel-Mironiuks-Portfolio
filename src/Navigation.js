@@ -5,7 +5,7 @@ import Image from "react-bootstrap/Image";
 function Navigation() {
   return (
     <Navbar className="fixed-top border-bottom" bg="light" variant="light" expand="lg" >
-      <Image className='navbar-brand nav-spacing' src='./img/dm_logo.png' width="3%" height="3%"/>
+      <Image className='navbar-brand nav-spacing' src='./img/dm_logo.png' width="50" height="50"/>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className='nav-spacing' id="basic-navbar-nav">
         <Nav className="ml-auto nav-spacing">

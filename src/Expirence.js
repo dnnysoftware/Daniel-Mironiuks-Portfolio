@@ -1,8 +1,11 @@
-
+import MatrixRainAnimation from "./Animation";
 
 function Expirence() {
     return (
-        <p>Thiang</p>
+        <div className="expirence-section">
+            <MatrixRainAnimation/>
+            <p>Thiang</p>
+        </div>
     );
 }
 
