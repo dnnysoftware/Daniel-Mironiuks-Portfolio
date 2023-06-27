@@ -1,17 +1,10 @@
-.yeet {
-  background-color: #fff;
-  color: black;
-}
-
 .app {
-  height: 100%;
   position: relative;
   margin: 0;
 }
 
 .canvas {
   height: 100vh;
-  width: 60vw;
 }
 
 .row {
@@ -42,7 +35,7 @@
 }
 
 .text {
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #fff;
   text-align: left;
 }
@@ -62,31 +55,47 @@
   position: relative;
 }
 
-.btn:link,
-.btn:visited {
+
+
+.port-button:link,
+.port-button:visited {
   margin-left: 2%;
   margin-bottom: 2%;
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  padding: 4% 6%;
+  padding: 2% 5%;
   border-radius: 100px;
   transition: all .2s;
+  font-size: 100%;
 }
 
-.btn:hover {
+.port-button:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   color: black;
 }
 
-.btn-white {
+.port-button-white {
   background-color: #fff;
   color: #777;
 }
 
-.btn-animated {
+.port-button-animated {
   animation: moveInBottom 5s ease-out;
   animation-fill-mode: backwards;
+}
+
+.about-me {
+  background-color: #fff;
+  color: black;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.portrait {
+  width: 50%;
 }
 
