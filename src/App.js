@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { Canvas } from '@react-three/fiber';
+import { Canvas, useFrame } from '@react-three/fiber';
 import { useGLTF, Stage } from '@react-three/drei';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -61,23 +61,18 @@ function MatrixRainAnimation() {
 
 function Model(props) {
   const { scene } = useGLTF('/model.glb');
-  return <primitive object={scene} {...props} />;
+  const modelRef = useRef();
+
+  useFrame(() => {
+    if (modelRef.current) {
+      modelRef.current.rotation.y += 0.01; // Adjust the rotation speed here
+    }
+  });
+
+  return <primitive object={scene} ref={modelRef} {...props}/>;
 }
 
 function App() {
-  const modelRef = useRef();
-
-  useEffect(() => {
-    const rotationInterval = setInterval(() => {
-      if (modelRef.current) {
-        modelRef.current.rotation.y += 0.01; // Adjust the rotation speed here
-      }
-    }, 16); // Adjust the interval duration here (e.g., 16 milliseconds for ~60 FPS)
-
-    return () => {
-      clearInterval(rotationInterval);
-    };
-  }, []);
 
   return (
     <>
@@ -88,17 +83,18 @@ function App() {
             <Col className='canvas title-info'>
               <div className='info-section'>
                 <p className='title'>Daniel Mironiuk's Portfolio</p>
+                <p className='desc'>Check Out My Code!</p>
                 <div className='text-box'>
-                  <a className='btn btn-white btn-animate' href="https://github.com/dnnysoftware">Github</a>
+                  <a className='btn btn-white btn-animate' href="https://github.com/dnnysoftware" rel="noreferrer" target="_blank">Github</a>
                   <a className='btn btn-white btn-animate' href='https://www.linkedin.com/in/daniel-mironiuk/' rel="noreferrer" target="_blank">LinkedIn</a>
-                        <a className='btn btn-white btn-animate' href="mailto: softwarebydanielmironiuk@gmail.com">Email</a>
+                  <a className='btn btn-white btn-animate' href="mailto: softwarebydanielmironiuk@gmail.com">Email</a>
                 </div>
               </div>
             </Col>
-            <Col className='canvas model'>
-              <Canvas shadows camera={{ fov: 100, near: 0.1, far: 1000, position: [0, 2, 6] }} >
+            <Col className='canvas model' >
+              <Canvas shadows camera={{ fov: 100, near: 0.1, far: 1000, position: [0, 2, 4] }}>
                 <Stage environment="sunset">
-                  <group ref={modelRef} scale={0.04}>
+                  <group scale={0.01}>
                     <Model />
                   </group>
                 </Stage>
