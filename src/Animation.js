@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import './css/Animation.css';
 
 function MatrixRainAnimation() {
     const canvasRef = useRef(null);

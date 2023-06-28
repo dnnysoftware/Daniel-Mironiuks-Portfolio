@@ -1,6 +1,7 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Image from "react-bootstrap/Image";
+import './css/Navigation.css';
 
 function Navigation() {
   return (

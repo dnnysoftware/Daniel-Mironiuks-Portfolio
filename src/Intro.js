@@ -1,11 +1,8 @@
 import { useRef } from 'react';
-
-
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-
+import {Row, Col, Container} from 'react-bootstrap';
 import { Canvas, useFrame} from '@react-three/fiber';
 import { useGLTF, Stage } from '@react-three/drei';
+import './css/Intro.css';
 
 
 function Model() {
@@ -25,31 +22,30 @@ function Model() {
 function Intro() {
 
     return (
-        <>
-            <Row className="row">
-                <Col className='canvas title-info' sm={4}>
-                    <div className='info-section'>
-                        <p className='title-text title'>DANIEL MIRONIUK'S PORTFOLIO</p>
-                        <p className='title-text desc'>Check Out My Code!</p>
-                        <div className='text-box'>
+        <Container className='intro-container justify-content-center' fluid='xxl'>
+            <Row className='intro-row' xs={1} sm={1} md={1} lg={2} xl={2} xxl={2}>
+                <Col className='intro-col d-flex align-items-center' xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
+                    <div className='title-section justify-content-center'>
+                        <p className='title text white'>DANIEL MIRONIUK'S PORTFOLIO</p>
+                        <p className='desc text white'>Check Out My Code!</p>
+                        <div>
                             <a className='port-button port-button-white port-button-animate' href="https://github.com/dnnysoftware" rel="noreferrer" target="_blank">Github</a>
                             <a className='port-button port-button-white port-button-animate' href='https://www.linkedin.com/in/daniel-mironiuk/' rel="noreferrer" target="_blank">LinkedIn</a>
                             <a className='port-button port-button-white port-button-animate' href="mailto: softwarebydanielmironiuk@gmail.com">Email</a>
                         </div>
                     </div>
                 </Col>
-                <Col sm={1}></Col>
-                <Col className='canvas model' sm={7}>
-                <Canvas shadows camera={{ fov: 75, near: 0.1, far: 1000, position: [0, 2, 4] }}>
-                    <Stage environment="sunset">
-                    <group scale={0.01}>
-                        <Model />
-                    </group>
-                    </Stage>
-                </Canvas>
+                <Col className='intro-col'  xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
+                    <Canvas shadows camera={{ fov: 75, near: 0.1, far: 1000, position: [0, 2, 4] }}>
+                        <Stage environment="sunset">
+                            <group scale={0.01}>
+                                <Model />
+                            </group>
+                        </Stage>
+                    </Canvas>
                 </Col>
             </Row>
-        </>
+        </Container>
     );
 }
 
