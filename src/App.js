@@ -12,16 +12,13 @@ function App() {
 
   return (
     <>
-      <div>
-        <MatrixRainAnimation className="matrix" />
-        <Navigation/>
-      </div>
+      <MatrixRainAnimation className="matrix" />
+      <Navigation/>
       <Intro/>
       <AboutMe/>
-      <div>
-        <Education />
-        <Expirence/>
-      </div>
+      <Education />
+      <Expirence/>
+
     </>
   );
 }

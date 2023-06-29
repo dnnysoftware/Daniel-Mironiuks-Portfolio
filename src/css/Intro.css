@@ -29,34 +29,3 @@
 }
 
 
-/* Buttons */
-
-.port-button:link,
-.port-button:visited {
-  margin-left: 2%;
-  margin-bottom: 2%;
-  text-transform: uppercase;
-  text-decoration: none;
-  display: inline-block;
-  padding: .8vw 1vw;
-  border-radius: 100px;
-  transition: all .2s;
-  font-size: 100%;
-  border: 2px black solid;
-}
-
-.port-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  color: black;
-}
-
-.port-button-white {
-  background-color: #fff;
-  color: #777;
-}
-
-.port-button-animated {
-  animation: moveInBottom 5s ease-out;
-  animation-fill-mode: backwards;
-}

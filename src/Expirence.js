@@ -1,12 +1,11 @@
 import {Card, CardGroup} from 'react-bootstrap';
-import MatrixRainAnimation from './Animation';
 import './css/Expirence.css';
 
 function Expirence() {
     return (
         <div className='expirence-section'>
-            <div className='expirence-content'>
-                <h1 className='text'>Expirence</h1>
+            <div className='expirence-content text-center'>
+                <h1 className='text expire-title'>Expirence</h1>
                 <div className='all-expirences d-flex align-items-center'>
                     <CardGroup>
                         <Card className='expirence-card d-flex flex-column' bg='dark' text='light' border='success'>
