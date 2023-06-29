@@ -3,6 +3,7 @@ import MatrixRainAnimation from './Animation';
 import Intro from './Intro';
 import AboutMe from "./AboutMe";
 import Expirence from './Expirence';
+import Education from './Education';
 import './css/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -19,6 +20,7 @@ function App() {
       <AboutMe/>
       <div>
         <MatrixRainAnimation className="matrix" />
+        <Education />
         <Expirence/>
       </div>
     </>
