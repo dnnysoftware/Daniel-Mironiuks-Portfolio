@@ -1,0 +1,17 @@
+.white {
+    color: #fff;
+}
+
+.projects-title {
+    padding-top: 8%;
+}
+
+.projects-container {
+    background-color: white;
+    height: 70vh;
+    border-radius: 25px;
+}
+
+.gps-proj {
+    height: 100vh;
+}

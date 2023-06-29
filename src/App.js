@@ -4,8 +4,10 @@ import Intro from './Intro';
 import AboutMe from "./AboutMe";
 import Expirence from './Expirence';
 import Education from './Education';
+import Projects from './Projects';
 import './css/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
@@ -17,8 +19,8 @@ function App() {
       <Intro/>
       <AboutMe/>
       <Education />
-      <Expirence/>
-
+      <Expirence/> 
+      <Projects/>
     </>
   );
 }
