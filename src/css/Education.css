@@ -1,20 +1,22 @@
-.education-card {
-    height: 100%;
-}
-
 .education-section {
     height: 100vh;
 }
 
-.education-card-body {
-    
+.white {
+    color: #fff;
 }
 
 .education-container {
-    height: 80%;
+    height: 60vh;
     background-color: white;
+    border-radius: 25px;
 }
 
+.edu-content {
+    margin: 2% 0;
+}
 
-
+.pos {
+    text-align: center;
+}
   

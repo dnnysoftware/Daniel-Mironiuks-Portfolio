@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Container, Row, Col} from 'react-bootstrap';
+import { Image, Container, Row, Col, Card} from 'react-bootstrap';
 import './css/AboutMe.css';
 
 function AboutMe() {

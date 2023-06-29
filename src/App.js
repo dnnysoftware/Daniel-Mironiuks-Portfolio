@@ -19,7 +19,6 @@ function App() {
       <Intro/>
       <AboutMe/>
       <div>
-        <MatrixRainAnimation className="matrix" />
         <Education />
         <Expirence/>
       </div>
