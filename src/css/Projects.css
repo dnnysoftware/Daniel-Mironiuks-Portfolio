@@ -2,10 +2,6 @@
     color: #fff;
 }
 
-.projects-title {
-    padding-top: 8%;
-}
-
 .projects-container {
     background-color: white;
     height: 70vh;
@@ -14,4 +10,8 @@
 
 .gps-proj {
     height: 100vh;
+}
+
+.projects-title {
+    padding: 4% 0;
 }
