@@ -4,13 +4,17 @@ import './css/Projects.css';
 function Projects() {
   return (
     <>
-      <MatrixRainAnimation className="matrix" />
-      <div className='text-center'>
-        <h1 className='text white projects-title'>Projects</h1>
-        <div className='d-flex justify-content-center'>
-          <GPS_PROJECT />
+        <MatrixRainAnimation className="matrix" />
+        <div className='text-center'>
+            <h1 className='text white projects-title'>Projects</h1>
+            <div className='d-flex justify-content-center text-center'>
+                <GPS_PROJECT />
+            </div>
         </div>
-      </div>
+        <MatrixRainAnimation className="matrix" />
+        <div className='sub d-flex justify-content-center text-center'>
+            <GPS_PROJECT />
+        </div>
     </>
   );
 }
