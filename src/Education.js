@@ -15,12 +15,15 @@ function Education() {
                             <Card.Header className='text pos'>Bachelor's Degree in Software Engineering</Card.Header>
                             <Card.Body>
                                 <Card.Text>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
-                                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                                    anim id est laborum.
+                                During my time at the Rochester Institute of Technology, I had an incredible educational journey that shaped me into the person I am today. I graduated Cum Laude, a testament to my dedication and hard work.
+
+One of the highlights of my college experience was being a part of The Society of Software Engineers. As a mentor, I had the privilege of guiding and supporting fellow students, while also contributing to the organization of networking events and development projects. It was a rewarding experience that allowed me to hone my leadership and teamwork skills.
+
+Another significant role I held was as the marketing manager and lead content creator for TEDxRIT. I took charge of developing and designing the program's website, creating captivating graphics, and managing social media platforms. It was an exhilarating opportunity to blend my passion for marketing and public speaking.
+
+In addition, I enthusiastically joined the BioPrint club, where I utilized my skills to help design and 3D print prosthetics. It was fulfilling to contribute to a project that aimed to improve the lives of others.
+
+Overall, my education at RIT was a transformative experience filled with academic achievements, invaluable club involvement, and a deep sense of personal growth.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
