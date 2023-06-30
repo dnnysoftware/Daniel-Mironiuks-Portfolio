@@ -1,4 +1,4 @@
-import {Container, Card} from 'react-bootstrap';
+import {Container, Card, Image, Row, Col} from 'react-bootstrap';
 import MatrixRainAnimation from './Animation';
 import './css/Education.css';
 
@@ -17,7 +17,7 @@ function Education() {
                                 <Card.Text>
                                 During my time at the Rochester Institute of Technology, I had an incredible educational journey that shaped me into the person I am today. I graduated Cum Laude, a testament to my dedication and hard work.
 
-One of the highlights of my college experience was being a part of The Society of Software Engineers. As a mentor, I had the privilege of guiding and supporting fellow students, while also contributing to the organization of networking events and development projects. It was a rewarding experience that allowed me to hone my leadership and teamwork skills.
+One of the highlights of my college experience was being a part of the Society of Software Engineers. As a mentor, I had the privilege of guiding and supporting fellow students, while also contributing to the organization's networking events and development projects. It was a rewarding experience that allowed me to hone my leadership and teamwork skills.
 
 Another significant role I held was as the marketing manager and lead content creator for TEDxRIT. I took charge of developing and designing the program's website, creating captivating graphics, and managing social media platforms. It was an exhilarating opportunity to blend my passion for marketing and public speaking.
 
@@ -25,6 +25,11 @@ In addition, I enthusiastically joined the BioPrint club, where I utilized my sk
 
 Overall, my education at RIT was a transformative experience filled with academic achievements, invaluable club involvement, and a deep sense of personal growth.
                                 </Card.Text>
+                                <Row className='images-row'>
+                                    <Col><Image width='100vw' height='100vh' src='img/sse.png' alt='SSE' fluid /></Col>
+                                    <Col><Image width='100vw' height='100vh' src='img/ted.png' alt='TedxRit' fluid /></Col>
+                                    <Col><Image width='100vw' height='100vh' src='img/bioprintpic.png' alt='TedxRit' fluid /></Col>
+                                </Row>
                             </Card.Body>
                         </Card>
                     </div>
