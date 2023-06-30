@@ -4,7 +4,7 @@ import './css/AboutMe.css';
 
 function AboutMe() {
   return (
-    <Container className='about-me-container text-center' fluid='fluid'>
+    <Container className='about-me-container text-center' id='about' fluid='fluid'>
       <h1 className='text'>About Me</h1>
       <Row className='row-about-me align-items-center' sm={1} md={1} lg={1} xl={1} xxl={2}>
         <Col className='description' xs={12} sm={12} md={12} lg={12} xl={12} xxl={4}>

@@ -5,7 +5,7 @@ function Projects() {
   return (
     <>
         <MatrixRainAnimation/>
-        <div className='text-center'>
+        <div className='text-center' id='projects'>
             <h1 className='text white projects-title'>Projects</h1>
             <div className='d-flex justify-content-center text-center'>
                 <GPS_PROJECT />

@@ -22,7 +22,7 @@ function Model() {
 function Intro() {
 
     return (
-        <Container className='intro-container justify-content-center' fluid='xxl'>
+        <Container className='intro-container justify-content-center' fluid='xxl' id='home'>
             <Row className='intro-row' xs={1} sm={1} md={1} lg={2} xl={2} xxl={2}>
                 <Col className='intro-col d-flex align-items-center' xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
                     <div className='title-section justify-content-center'>

@@ -6,7 +6,7 @@ function Education() {
     return (
         <>
             <MatrixRainAnimation className="matrix" />
-            <div className='education-section d-flex align-items-center'>
+            <div className='education-section d-flex align-items-center' id='education'>
                 <Container className='education-container'>
                     <div className='edu-content text-center'>
                         <h1 className='text'>Education</h1>

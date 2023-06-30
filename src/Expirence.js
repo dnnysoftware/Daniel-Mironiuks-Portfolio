@@ -3,7 +3,7 @@ import './css/Expirence.css';
 
 function Expirence() {
     return (
-        <div className='expirence-section'>
+        <div className='expirence-section' id='expirence'>
             <div className='expirence-content text-center'>
                 <h1 className='text expire-title'>Expirence</h1>
                 <div className='all-expirences d-flex align-items-center'>
