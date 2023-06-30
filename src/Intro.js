@@ -27,7 +27,7 @@ function Intro() {
                 <Col className='intro-col d-flex align-items-center' xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
                     <div className='title-section justify-content-center'>
                         <p className='title text white'>DANIEL MIRONIUK'S PORTFOLIO</p>
-                        <p className='desc text white'>Check Out My Code!</p>
+                        <p className='desc text white'>Building Dreams Into Reality!</p>
                         <div>
                             <a className='port-button port-button-white port-button-animate' href="https://github.com/dnnysoftware" rel="noreferrer" target="_blank">Github</a>
                             <a className='port-button port-button-white port-button-animate' href='https://www.linkedin.com/in/daniel-mironiuk/' rel="noreferrer" target="_blank">LinkedIn</a>

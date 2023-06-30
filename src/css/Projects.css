@@ -17,5 +17,13 @@
 }
 
 .sub {
-    margin-top: 10%;
+    margin-top: 15vh;
+}
+
+.video-player {
+    background-color: black;
+}
+
+.github-btn {
+    margin-top: 1%;
 }

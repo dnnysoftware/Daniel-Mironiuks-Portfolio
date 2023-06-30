@@ -33,6 +33,11 @@
   color: #777;
 }
 
+.port-button-black {
+  background-color: black;
+  color: #777;
+}
+
 .port-button-animated {
   animation: moveInBottom 5s ease-out;
   animation-fill-mode: backwards;
