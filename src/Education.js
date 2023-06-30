@@ -28,7 +28,7 @@ Overall, my education at RIT was a transformative experience filled with academi
                                 <Row className='images-row'>
                                     <Col><Image width='100vw' height='100vh' src='img/sse.png' alt='SSE' fluid /></Col>
                                     <Col><Image width='100vw' height='100vh' src='img/ted.png' alt='TedxRit' fluid /></Col>
-                                    <Col><Image width='100vw' height='100vh' src='img/bioprintpic.png' alt='TedxRit' fluid /></Col>
+                                    <Col><Image width='100vw' height='100vh' src='img/bioprintpic.png' alt='BioPrint' fluid /></Col>
                                 </Row>
                             </Card.Body>
                         </Card>
