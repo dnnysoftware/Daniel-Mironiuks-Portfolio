@@ -26,10 +26,9 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The State Capital GPS Search Project
+## Daniel Mironiuk's Porfolio
 
-![My Demo](img/demo.png)
-![State Captial GPS Search](img/Captials-Map.png)
+![My Portfolio Demo](img/portfolio.png)
 
 This project is a React application of my software personal portfolio which consolidates my credentials, expirence, education and project demos. You can check out the published website at: "http://softwarebydanielmironiuk.com/"
 
