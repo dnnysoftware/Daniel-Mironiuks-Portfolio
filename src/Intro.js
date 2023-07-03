@@ -29,9 +29,13 @@ function Intro() {
                         <p className='title text white'>DANIEL MIRONIUK'S PORTFOLIO</p>
                         <p className='desc text white'>Building Dreams Into Reality!</p>
                         <div>
-                            <a className='port-button port-button-white port-button-animate' href="https://github.com/dnnysoftware" rel="noreferrer" target="_blank">Github</a>
-                            <a className='port-button port-button-white port-button-animate' href='https://www.linkedin.com/in/daniel-mironiuk/' rel="noreferrer" target="_blank">LinkedIn</a>
-                            <a className='port-button port-button-white port-button-animate' href="mailto: softwarebydanielmironiuk@gmail.com">Email</a>
+                            <Container>
+                                <Row xs={1} sm={1} md={3} lg={3} xl={3} xxl={3}>
+                                    <Col><a className='port-button port-button-white port-button-animate' href="https://github.com/dnnysoftware" rel="noreferrer" target="_blank">Github</a></Col>
+                                    <Col><a className='port-button port-button-white port-button-animate' href='https://www.linkedin.com/in/daniel-mironiuk/' rel="noreferrer" target="_blank">LinkedIn</a></Col>
+                                    <Col><a className='port-button port-button-white port-button-animate' href="mailto: softwarebydanielmironiuk@gmail.com">Email</a></Col>
+                                </Row>
+                            </Container>
                         </div>
                     </div>
                 </Col>

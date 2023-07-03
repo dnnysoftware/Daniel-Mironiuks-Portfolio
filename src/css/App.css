@@ -20,11 +20,11 @@ html {
   text-transform: uppercase;
   text-decoration: none;
   display: inline-block;
-  padding: .8vw 1vw;
+  padding: 16px 27px;
   border-radius: 100px;
   transition: all .2s;
   font-size: 100%;
-  border: 2px black solid;
+  border: 2px #5eb46d solid;
 }
 
 .port-button:hover {
@@ -35,7 +35,7 @@ html {
 
 .port-button-white {
   background-color: #fff;
-  color: #777;
+  color: black;
 }
 
 .port-button-black {

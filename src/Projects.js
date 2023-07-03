@@ -13,15 +13,19 @@ function Projects() {
         </div>
         <MatrixRainAnimation/>
         <div className='sub d-flex justify-content-center text-center'>
-            <GPS_PROJECT />
+            <HOME_SECURITY />
         </div>
         <MatrixRainAnimation/>
         <div className='sub d-flex justify-content-center text-center'>
-            <GPS_PROJECT />
+            <SECURITY_FOOTAGE_PORTAL />
         </div>
         <MatrixRainAnimation/>
         <div className='sub d-flex justify-content-center text-center'>
-            <GPS_PROJECT />
+            <DUBINS_CAR />
+        </div>
+        <MatrixRainAnimation/>
+        <div className='sub d-flex justify-content-center text-center'>
+            <BLACKJACK />
         </div>
     </>
   );
@@ -38,6 +42,61 @@ function GPS_PROJECT() {
         </div>
     </> 
   )
+}
+
+
+function HOME_SECURITY() {
+    return (
+      <>
+          <div className='projects-container'>
+              <a className='github-btn port-button port-button-white port-button-animate' href="https://github.com/dnnysoftware/HomeSecurityAI" rel="noreferrer" target="_blank">Security Camera AI</a>
+              <video className='video-player' width="100%" height="100%" controls poster='./img/home-ai.png'>
+                  <source src='https://d1a8mx70ybu1ae.cloudfront.net/HomeAI.mp4' type="video/mp4"/>
+              </video>
+          </div>
+      </> 
+    )
+}
+
+function SECURITY_FOOTAGE_PORTAL() {
+    return (
+      <>
+          <div className='projects-container'>
+              <a className='github-btn port-button port-button-white port-button-animate' href="https://github.com/dnnysoftware/SecurityFootagePortal" rel="noreferrer" target="_blank">Security Footage Portal</a>
+              <video className='video-player' width="100%" height="100%" controls poster='./img/security-portal.png'>
+                  <source src='https://d1a8mx70ybu1ae.cloudfront.net/SecurityFootage.mov' type="video/mp4"/>
+              </video>
+          </div>
+      </> 
+    )
+}
+
+
+function DUBINS_CAR() {
+    return (
+      <>
+          <div className='projects-container'>
+              <a className='github-btn port-button port-button-white port-button-animate' href="https://github.com/dnnysoftware/DubinsCarMachineLearning" rel="noreferrer" target="_blank">Dubins Car Machine Learning</a>
+              <video className='video-player' width="100%" height="100%" controls poster='./img/dubins.png'>
+                  <source src='https://d1a8mx70ybu1ae.cloudfront.net/DubinsCar.mp4' type="video/mp4"/>
+              </video>
+          </div>
+      </> 
+    )
+}
+
+
+function BLACKJACK() {
+    return (
+      <>
+          <div className='projects-container'>
+              <a className='github-btn port-button port-button-white port-button-animate' href="https://github.com/dnnysoftware/BlackJackGame" rel="noreferrer" target="_blank">Golang Blackjack</a>
+              <video className='video-player' width="100%" height="100%" controls poster='./img/blackjack.png'>
+                  <source src='https://d1a8mx70ybu1ae.cloudfront.net/Blackjack.mov' type="video/mp4"/>
+              </video>
+          </div>
+      </> 
+    )
 }
 
 export default Projects;
