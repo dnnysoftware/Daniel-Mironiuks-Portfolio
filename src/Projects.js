@@ -21,7 +21,15 @@ function Projects() {
         </div>
         <MatrixRainAnimation/>
         <div className='sub d-flex justify-content-center text-center'>
+            <LANGUAGE_TRANSLATOR />
+        </div>
+        <MatrixRainAnimation/>
+        <div className='sub d-flex justify-content-center text-center'>
             <DUBINS_CAR />
+        </div>
+        <MatrixRainAnimation/>
+        <div className='sub d-flex justify-content-center text-center'>
+            <CLIENT_TIME_TRACKER />
         </div>
         <MatrixRainAnimation/>
         <div className='sub d-flex justify-content-center text-center'>
@@ -93,6 +101,34 @@ function BLACKJACK() {
               <a className='github-btn port-button port-button-white port-button-animate' href="https://github.com/dnnysoftware/BlackJackGame" rel="noreferrer" target="_blank">Golang Blackjack</a>
               <video className='video-player' width="100%" height="100%" controls poster='./img/blackjack.png'>
                   <source src='https://d1a8mx70ybu1ae.cloudfront.net/Blackjack.mov' type="video/mp4"/>
+              </video>
+          </div>
+      </> 
+    )
+}
+
+
+function CLIENT_TIME_TRACKER() {
+    return (
+      <>
+          <div className='projects-container'>
+              <a className='github-btn port-button port-button-white port-button-animate' href="https://github.com/dnnysoftware/ClientTimeTracker.git" rel="noreferrer" target="_blank">Clients Time Tracker</a>
+              <video className='video-player' width="100%" height="100%" controls poster='./img/tracker.png'>
+                  <source src='https://d1a8mx70ybu1ae.cloudfront.net/ClientTimeTracker.mov' type="video/mp4"/>
+              </video>
+          </div>
+      </> 
+    )
+}
+
+
+function LANGUAGE_TRANSLATOR() {
+    return (
+      <>
+          <div className='projects-container'>
+              <a className='github-btn port-button port-button-white port-button-animate' href="https://github.com/dnnysoftware/Language-Translator-Web-App.git" rel="noreferrer" target="_blank">Language Translator Web App</a>
+              <video className='video-player' width="100%" height="100%" controls poster='./img/translator.png'>
+                  <source src='https://d1a8mx70ybu1ae.cloudfront.net/LanguageTranslator.mov' type="video/mp4"/>
               </video>
           </div>
       </> 
