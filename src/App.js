@@ -2,7 +2,7 @@ import Navigation from './Navigation';
 import MatrixRainAnimation from './Animation';
 import Intro from './Intro';
 import AboutMe from "./AboutMe";
-import Expirence from './Expirence';
+import Experience from './Experience';
 import Education from './Education';
 import Projects from './Projects';
 import './css/App.css';
@@ -19,7 +19,7 @@ function App() {
       <Intro/>
       <AboutMe/>
       <Education />
-      <Expirence/> 
+      <Experience/> 
       <Projects/>
     </>
   );
