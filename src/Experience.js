@@ -1,11 +1,11 @@
 import {Card, CardGroup, Image} from 'react-bootstrap';
 import './css/Expirence.css';
 
-function Expirence() {
+function Experience() {
     return (
         <div className='expirence-section' id='expirence'>
             <div className='expirence-content text-center'>
-                <h1 className='text expire-title'>Expirence</h1>
+                <h1 className='text expire-title'>Experience</h1>
                 <div className='all-expirences d-flex align-items-center'>
                     <CardGroup>
                         <Card className='expirence-card d-flex flex-column' bg='dark' text='light' border='success'>
@@ -60,4 +60,4 @@ function Expirence() {
     );
 }
 
-export default Expirence;
+export default Experience;
